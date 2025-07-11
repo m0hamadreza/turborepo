@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "baseUrl": "./",
+    "strict": true,
+    "esModuleInterop": true
+  },
+  "extends": "expo/tsconfig.base",
+  "include": [
+    ".rnstorybook/**/*",
+    ".storybook/**/*",
+    "./*",
+    "nativewind-env.d.ts"
+  ]
+}
